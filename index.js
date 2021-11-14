@@ -26,6 +26,8 @@ const fileFilter = (req, file, cb) => {
     cb(null, false);
   }
 };
+
+//The five at the end represent megabytes.
 const upload = multer({
   storage: storage,
   limits: {
