@@ -16,7 +16,7 @@ For example
 
 ./ngrok http 5000 --host-header=rewrite
 
-https://f461-35-134-97-254.ngrok.io -> http://localhost:5000
+Forwarding: https://f461-35-134-97-254.ngrok.io -> http://localhost:5000
 
 To see image
 https://f461-35-134-97-254.ngrok.io/images/alexandra.jpeg
