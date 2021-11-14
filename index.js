@@ -191,7 +191,7 @@ app.delete("/upload/:userName/:picNumber/:ext", (req, res) => {
   }
 });
 
-//This creates a worker for every CPU, this allows the server to be run in a multi-thread manner, meaning you can use every
+//This creates a worker for every CPU, this allows the server to be ranned in a multi-thread manner, meaning you can use every
 //core in your machine to server your application.
 
 if (cluster.isMaster) {
