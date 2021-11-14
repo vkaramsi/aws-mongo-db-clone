@@ -22,3 +22,5 @@ Forwarding: https://f461-35-134-97-254.ngrok.io -> http://localhost:5000
 
 To see image
 https://f461-35-134-97-254.ngrok.io/images/alexandra.jpeg
+
+This MIT's effort to decentralize cloud services and allow everyone that has a computer have their own cloud service at home.
