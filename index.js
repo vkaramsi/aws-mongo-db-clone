@@ -192,7 +192,7 @@ app.delete("/upload/:userName/:picNumber/:ext", (req, res) => {
 });
 
 //This creates a worker for every CPU, this allows the server to be ranned in a multi-thread manner, meaning you can use every
-//core in your machine to server your application.
+//core in your machine to serve your application.
 
 if (cluster.isMaster) {
   for (var i = 0; i < numCPUs; i++) {
