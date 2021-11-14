@@ -9,3 +9,10 @@ node index.js
 or
 
 nodemon index.js
+
+Date function
+
+const today = new Date();
+const thirtyDaySubscription = new Date(today);
+thirtyDaySubscription.setDate(tomorrow.getDate() + 30);
+thirtyDaySubscription.toLocaleDateString();
