@@ -14,6 +14,10 @@ To serve it to the internet use https://ngrok.com/, you will have to have your l
 
 For example(your localhost host server will have to be running)
 
+You will have to download ngrok here:
+
+https://dashboard.ngrok.com/get-started/setup
+
 node index.js
 
 ./ngrok http 5000 --host-header=rewrite
