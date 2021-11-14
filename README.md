@@ -11,3 +11,12 @@ or
 nodemon index.js
 
 To serve it to the internet use https://ngrok.com/, you will have to have your localhost server on, ngrok will create a tunnel and will give you a url for people to see it in the internet, you can pay ngrok $20 per month to have a custom url.
+
+For example
+
+./ngrok http 5000 --host-header=rewrite
+
+https://f461-35-134-97-254.ngrok.io -> http://localhost:5000
+
+To see image
+https://f461-35-134-97-254.ngrok.io/images/alexandra.jpeg
