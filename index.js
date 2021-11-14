@@ -90,12 +90,39 @@ app.listen(process.env.PORT || 5000, () => {
   console.log("listenting");
 });
 
-app.post("/create-user", (req, res) => {
+app.get("/get-users", (req, res) => {
   const rawdata = fs.readFileSync("./database/users.json");
   const jsondata = JSON.parse(rawdata);
 
   res.send(jsondata);
 });
+
+app.post(
+  "/create-user/:email/:username/:lastFourCard/:paidSubscription/:dateOfPurchase/:dateOfExpiration",
+  (req, res) => {
+    const rawdata = fs.readFileSync("./database/users.json");
+    const jsondata = JSON.parse(rawdata);
+    const {
+      email,
+      username,
+      lastFourCard,
+      dateOfPurchase,
+      dateOfExpiration,
+      paidSubscription,
+    } = req.params;
+    jsondata[username] = {
+      email,
+      username,
+      lastFourCard,
+      paidSubscription,
+      dateOfPurchase,
+      dateOfExpiration,
+    };
+    const jsonData = JSON.stringify(jsondata);
+    fs.writeFileSync("./database/users.json", jsonData);
+    res.send("Success!");
+  }
+);
 
 app.post("/upload/:userName/:picNumber", upload.single("file"), (req, res) => {
   if (req.file) {

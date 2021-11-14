@@ -3,7 +3,7 @@
     "email": "dashboardstech@gmail.com",
     "username": "amazingdashboards",
     "lastFourCard": "3434",
-    "paidSubscription": true,
+    "paidSubscription": "Y",
     "dateOfPurchase": "11/13/2021",
     "dateOfExpiration": "12/13/2021",
     "userProducts": [
@@ -13,7 +13,6 @@
         "titleOfProduct": "Donut",
         "priceOfProduct": "$19"
       },
-
       {
         "image": "",
         "imageName": "",
@@ -38,7 +37,6 @@
         "titleOfProduct": "Donut",
         "priceOfProduct": "$19"
       },
-
       {
         "image": "",
         "imageName": "",
@@ -46,5 +44,13 @@
         "priceOfProduct": "$19"
       }
     ]
+  },
+  "hmtest": {
+    "email": "hmsoftwaredeveloper",
+    "username": "hmtest",
+    "lastFourCard": "2323",
+    "paidSubscription": "Y",
+    "dateOfPurchase": "11-14-2021",
+    "dateOfExpiration": "12-14-2021"
   }
 }
