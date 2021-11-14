@@ -93,6 +93,16 @@ app.get("/get-users", (req, res) => {
   res.send(jsondata);
 });
 
+app.post("/create-route/:routeName", (req, res) => {
+  const rawdata = fs.readFileSync("./database/routes.json");
+  const jsonData = JSON.parse(rawdata);
+  const { routeName } = req.params;
+  jsonData["routes"].push(routeName);
+  const jsonToWrite = JSON.stringify(jsonData);
+  fs.writeFileSync("./database/routes.json", jsonToWrite);
+  res.send("It's alive!");
+});
+
 app.post(
   "/create-user/:email/:username/:lastFourCard/:paidSubscription/:dateOfPurchase/:dateOfExpiration",
   (req, res) => {

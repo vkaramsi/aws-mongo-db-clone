@@ -51,6 +51,44 @@
     "lastFourCard": "2323",
     "paidSubscription": "Y",
     "dateOfPurchase": "11-14-2021",
-    "dateOfExpiration": "12-14-2021"
+    "dateOfExpiration": "12-14-2021",
+    "userProducts": [
+      {
+        "image": "",
+        "imageName": "",
+        "titleOfProduct": "Donut",
+        "priceOfProduct": "$19"
+      },
+      {
+        "image": "",
+        "imageName": "",
+        "titleOfProduct": "Donut",
+        "priceOfProduct": "$19"
+      },
+      {
+        "image": "",
+        "imageName": "",
+        "titleOfProduct": "Donut",
+        "priceOfProduct": "$19"
+      },
+      {
+        "image": "",
+        "imageName": "",
+        "titleOfProduct": "Donut",
+        "priceOfProduct": "$19"
+      },
+      {
+        "image": "",
+        "imageName": "",
+        "titleOfProduct": "Donut",
+        "priceOfProduct": "$19"
+      },
+      {
+        "image": "",
+        "imageName": "",
+        "titleOfProduct": "Donut",
+        "priceOfProduct": "$19"
+      }
+    ]
   }
 }
