@@ -1,4 +1,6 @@
 const express = require("express");
+const cluster = require("cluster");
+const numCPUs = require("os").cpus().length;
 const fs = require("fs");
 const bodyParser = require("body-parser");
 const cors = require("cors");
@@ -189,6 +191,13 @@ app.delete("/upload/:userName/:picNumber/:ext", (req, res) => {
   }
 });
 
-app.listen(process.env.PORT || 5000, () => {
-  console.log("listenting");
-});
+if (cluster.isMaster) {
+  for (var i = 0; i < numCPUs; i++) {
+    // Create a worker
+    cluster.fork();
+  }
+} else {
+  app.listen(process.env.PORT || 5000, () => {
+    console.log("listenting");
+  });
+}
