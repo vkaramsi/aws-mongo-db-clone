@@ -92,5 +92,52 @@
         "priceOfProduct": "$19"
       }
     ]
+  },
+  "test": {
+    "email": "test@gmail.com",
+    "username": "test",
+    "lastFourCard": "4543",
+    "paidSubscription": "Y",
+    "published": "N",
+    "dateOfPurchase": "11/14/2021",
+    "dateOfExpiration": "12/14/2021",
+    "userProducts": [
+      {
+        "image": "",
+        "imageName": "",
+        "titleOfProduct": "",
+        "priceOfProduct": ""
+      },
+      {
+        "image": "",
+        "imageName": "",
+        "titleOfProduct": "",
+        "priceOfProduct": ""
+      },
+      {
+        "image": "",
+        "imageName": "",
+        "titleOfProduct": "",
+        "priceOfProduct": ""
+      },
+      {
+        "image": "",
+        "imageName": "",
+        "titleOfProduct": "",
+        "priceOfProduct": ""
+      },
+      {
+        "image": "",
+        "imageName": "",
+        "titleOfProduct": "",
+        "priceOfProduct": ""
+      },
+      {
+        "image": "",
+        "imageName": "",
+        "titleOfProduct": "",
+        "priceOfProduct": ""
+      }
+    ]
   }
 }

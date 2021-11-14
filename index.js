@@ -105,70 +105,66 @@ app.post("/create-route/:routeName", (req, res) => {
   res.send("It's alive!");
 });
 
-app.post(
-  "/create-user/:email/:username/:lastFourCard/:paidSubscription/:dateOfPurchase/:dateOfExpiration",
-  (req, res) => {
-    const rawdata = fs.readFileSync("./database/users.json");
-    const jsondata = JSON.parse(rawdata);
-    const {
-      email,
-      username,
-      lastFourCard,
-      dateOfPurchase,
-      dateOfExpiration,
-      paidSubscription,
-    } = req.params;
-    jsondata[username] = {
-      email,
-      username,
-      lastFourCard,
-      paidSubscription,
-      dateOfPurchase,
-      dateOfExpiration,
-      userProducts: [
-        {
-          image: "",
-          imageName: "",
-          titleOfProduct: "",
-          priceOfProduct: "",
-        },
-        {
-          image: "",
-          imageName: "",
-          titleOfProduct: "",
-          priceOfProduct: "",
-        },
-        {
-          image: "",
-          imageName: "",
-          titleOfProduct: "",
-          priceOfProduct: "",
-        },
-        {
-          image: "",
-          imageName: "",
-          titleOfProduct: "",
-          priceOfProduct: "",
-        },
-        {
-          image: "",
-          imageName: "",
-          titleOfProduct: "",
-          priceOfProduct: "",
-        },
-        {
-          image: "",
-          imageName: "",
-          titleOfProduct: "",
-          priceOfProduct: "",
-        },
-      ],
-    };
-    const jsonData = JSON.stringify(jsondata);
-    fs.writeFileSync("./database/users.json", jsonData);
-    res.send("Success!");
-  }
-);
+app.post("/create-user/:email/:username/:lastFourCard", (req, res) => {
+  const rawdata = fs.readFileSync("./database/users.json");
+  const jsondata = JSON.parse(rawdata);
+  const today = new Date();
+  const thirtyDaySubscription = new Date(today);
+  thirtyDaySubscription.setDate(thirtyDaySubscription.getDate() + 30);
+  thirtyDaySubscription.toLocaleDateString();
+
+  const { email, username, lastFourCard } = req.params;
+  jsondata[username] = {
+    email,
+    username,
+    lastFourCard,
+    paidSubscription: "Y",
+    published: "N",
+    dateOfPurchase: today.toLocaleDateString(),
+    dateOfExpiration: thirtyDaySubscription.toLocaleDateString(),
+    userProducts: [
+      {
+        image: "",
+        imageName: "",
+        titleOfProduct: "",
+        priceOfProduct: "",
+      },
+      {
+        image: "",
+        imageName: "",
+        titleOfProduct: "",
+        priceOfProduct: "",
+      },
+      {
+        image: "",
+        imageName: "",
+        titleOfProduct: "",
+        priceOfProduct: "",
+      },
+      {
+        image: "",
+        imageName: "",
+        titleOfProduct: "",
+        priceOfProduct: "",
+      },
+      {
+        image: "",
+        imageName: "",
+        titleOfProduct: "",
+        priceOfProduct: "",
+      },
+      {
+        image: "",
+        imageName: "",
+        titleOfProduct: "",
+        priceOfProduct: "",
+      },
+    ],
+  };
+  const jsonData = JSON.stringify(jsondata);
+  fs.writeFileSync("./database/users.json", jsonData);
+  res.send("Success!");
+});
 
 app.post("/upload/:userName/:picNumber", upload.single("file"), (req, res) => {
   if (req.file) {
