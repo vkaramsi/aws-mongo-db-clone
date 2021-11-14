@@ -1,0 +1,50 @@
+{
+  "amazingdashboards": {
+    "email": "dashboardstech@gmail.com",
+    "username": "amazingdashboards",
+    "lastFourCard": "3434",
+    "paidSubscription": true,
+    "dateOfPurchase": "11/13/2021",
+    "dateOfExpiration": "12/13/2021",
+    "userProducts": [
+      {
+        "image": "",
+        "imageName": "",
+        "titleOfProduct": "Donut",
+        "priceOfProduct": "$19"
+      },
+
+      {
+        "image": "",
+        "imageName": "",
+        "titleOfProduct": "Donut",
+        "priceOfProduct": "$19"
+      },
+      {
+        "image": "",
+        "imageName": "",
+        "titleOfProduct": "Donut",
+        "priceOfProduct": "$19"
+      },
+      {
+        "image": "",
+        "imageName": "",
+        "titleOfProduct": "Donut",
+        "priceOfProduct": "$19"
+      },
+      {
+        "image": "",
+        "imageName": "",
+        "titleOfProduct": "Donut",
+        "priceOfProduct": "$19"
+      },
+
+      {
+        "image": "",
+        "imageName": "",
+        "titleOfProduct": "Donut",
+        "priceOfProduct": "$19"
+      }
+    ]
+  }
+}
