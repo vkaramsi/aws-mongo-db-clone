@@ -27,7 +27,7 @@ const fileFilter = (req, file, cb) => {
   }
 };
 
-//The five at the end represent megabytes.
+//The five at the end represents megabytes.
 const upload = multer({
   storage: storage,
   limits: {
@@ -125,6 +125,44 @@ app.post(
       paidSubscription,
       dateOfPurchase,
       dateOfExpiration,
+      userProducts: [
+        {
+          image: "",
+          imageName: "",
+          titleOfProduct: "",
+          priceOfProduct: "",
+        },
+        {
+          image: "",
+          imageName: "",
+          titleOfProduct: "",
+          priceOfProduct: "",
+        },
+        {
+          image: "",
+          imageName: "",
+          titleOfProduct: "",
+          priceOfProduct: "",
+        },
+        {
+          image: "",
+          imageName: "",
+          titleOfProduct: "",
+          priceOfProduct: "",
+        },
+        {
+          image: "",
+          imageName: "",
+          titleOfProduct: "",
+          priceOfProduct: "",
+        },
+        {
+          image: "",
+          imageName: "",
+          titleOfProduct: "",
+          priceOfProduct: "",
+        },
+      ],
     };
     const jsonData = JSON.stringify(jsondata);
     fs.writeFileSync("./database/users.json", jsonData);
