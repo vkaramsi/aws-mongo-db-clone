@@ -86,10 +86,6 @@ app.post("/charge-card", async (req, res) => {
   }
 });
 
-app.listen(process.env.PORT || 5000, () => {
-  console.log("listenting");
-});
-
 app.get("/get-users", (req, res) => {
   const rawdata = fs.readFileSync("./database/users.json");
   const jsondata = JSON.parse(rawdata);
@@ -145,4 +141,8 @@ app.delete("/upload/:userName/:picNumber/:ext", (req, res) => {
       req: req.body,
     });
   }
+});
+
+app.listen(process.env.PORT || 5000, () => {
+  console.log("listenting");
 });
