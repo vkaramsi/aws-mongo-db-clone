@@ -20,10 +20,10 @@ node index.js
 
 Forwarding: https://f461-35-134-97-254.ngrok.io -> http://localhost:5000
 
-To see image
+To see image:
 https://f461-35-134-97-254.ngrok.io/images/alexandra.jpeg
 
 This is MIT's effort to decentralize cloud services and allow everyone that has a computer to have their own cloud service at home.
 
-Website idea's that you can make with this software
+Website idea's that you can make with this software:
 Youtube, Instagram, Facebook, Twitter, Google, AWS Buckets and Hosting Services, Microsoft Azure, Heroku, Netlify, Pinterest, Amazon, Netlifx, Hulu, Disney +, Blockbuster, RedBox Online
