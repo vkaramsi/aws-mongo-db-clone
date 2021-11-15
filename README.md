@@ -1,3 +1,8 @@
+This is MIT's effort to decentralize cloud services and allow everyone that has a computer to have their own cloud service at home.
+
+Website ideas that you can make with this software:
+Youtube, Instagram, Facebook, Twitter, Google, AWS Buckets and Hosting Services, Microsoft Azure, Heroku, Netlify, Pinterest, Amazon, Netlifx, Hulu, Disney +, Blockbuster, RedBox Online, Spotify, Apple Music, Apple TV, Direct TV, Sling TV, and HBO Max
+
 This an example on how to CRUD images and json files from Disk(your own SSD), this will replicate the behavior hosting services like AWS, Google Cloud, or Microsoft Cloud offer, to see an image go to https://localhost:5000/images/${nameofimage}${ext}.
 
 To install dependencies
@@ -26,8 +31,3 @@ Forwarding: https://f461-35-134-97-254.ngrok.io -> http://localhost:5000
 
 To see image:
 https://f461-35-134-97-254.ngrok.io/images/alexandra.jpeg
-
-This is MIT's effort to decentralize cloud services and allow everyone that has a computer to have their own cloud service at home.
-
-Website ideas that you can make with this software:
-Youtube, Instagram, Facebook, Twitter, Google, AWS Buckets and Hosting Services, Microsoft Azure, Heroku, Netlify, Pinterest, Amazon, Netlifx, Hulu, Disney +, Blockbuster, RedBox Online, Spotify, Apple Music, Apple TV, Direct TV, Sling TV, and HBO Max
