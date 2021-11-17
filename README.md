@@ -42,3 +42,5 @@ To send emails to customers with https://sendgrid.com/
 
 1. You will need to create an api_key here https://app.sendgrid.com/settings/api_keys
 2. You will need to verify Single Sender Verification https://app.sendgrid.com/settings/sender_auth
+
+https://www.amazon.com/External-CD-DVD-Drive-Compatible/dp/B07MJW5BXZ/ref=sr_1_4?keywords=disc+burner+amazon&qid=1637182126&sr=8-4
