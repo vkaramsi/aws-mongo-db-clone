@@ -48,6 +48,8 @@ https://www.adobe.com/express/feature/video/merge?ef_id=CjwKCAiA7dKMBhBCEiwAO_cr
 
 https://support.apple.com/guide/quicktime-player/record-your-screen-qtp97b08e666/mac
 
+https://support.apple.com/guide/quicktime-player/record-audio-qtpf25d6f827/mac
+
 https://cloudconvert.com/mov-to-mp4
 
 https://www.amazon.com/External-CD-DVD-Drive-Compatible/dp/B07MJW5BXZ/ref=sr_1_4?keywords=disc+burner+amazon&qid=1637182126&sr=8-4
