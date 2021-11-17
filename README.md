@@ -38,6 +38,10 @@ http://localhost:5000/videos/avengersbattle.mp4
 To hear song:
 http://localhost:5000/songs/mixvol2.mp3
 
+or
+
+http://localhost:5000/songs/jacksparrow.mp3
+
 To send emails to customers with https://sendgrid.com/
 
 1. You will need to create an api_key here https://app.sendgrid.com/settings/api_keys
