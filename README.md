@@ -32,6 +32,12 @@ Forwarding: https://f461-35-134-97-254.ngrok.io -> http://localhost:5000
 To see image:
 https://f461-35-134-97-254.ngrok.io/images/alexandra.jpeg
 
+To see video:
+http://localhost:5000/videos/avengersbattle.mp4
+
+To hear song:
+http://localhost:5000/songs/mixvol2.mp3
+
 To send emails to customers with https://sendgrid.com/
 
 1. You will need to create an api_key here https://app.sendgrid.com/settings/api_keys
