@@ -31,3 +31,8 @@ Forwarding: https://f461-35-134-97-254.ngrok.io -> http://localhost:5000
 
 To see image:
 https://f461-35-134-97-254.ngrok.io/images/alexandra.jpeg
+
+To send emails to customers with https://sendgrid.com/
+
+1. You will need to create an api_key here https://app.sendgrid.com/settings/api_keys
+2. You will need to verify Single Sender Verification https://app.sendgrid.com/settings/sender_auth

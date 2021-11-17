@@ -6,8 +6,18 @@ const bodyParser = require("body-parser");
 const cors = require("cors");
 const multer = require("multer");
 const path = require("path");
+const nodemailer = require("nodemailer");
+const sendGridTransport = require("nodemailer-sendgrid-transport");
 const stripe = require("stripe")(
   "sk_test_51JtaOHJYfPxdOrXDGjZctORM6JTfMXuBsoHYfbUJVu7EepMKdHggr1fXjKXbRTmFOCqdS37aBplF8HhA2qjxlXNz00GcK2sBr7"
+);
+const transporter = nodemailer.createTransport(
+  sendGridTransport({
+    auth: {
+      api_key:
+        "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",
+    },
+  })
 );
 const app = express();
 const storage = multer.diskStorage({
@@ -44,6 +54,18 @@ app.use(cors());
 app.use(bodyParser.json());
 const YOUR_DOMAIN = "http://localhost:5000";
 
+app.post("/send-email", async (req, res) => {
+  try {
+    await transporter.sendMail({
+      to: "hm@gmail.com",
+      from: "hm@gmail.com",
+      subject: "Signup Succeeded",
+      html: "<h1>Hello world</h1>",
+    });
+  } catch (e) {
+    throw new Error(e);
+  }
+});
 app.post("/create-checkout-session", async (req, res) => {
   const session = await stripe.checkout.sessions.create({
     line_items: [
