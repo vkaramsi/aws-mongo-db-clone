@@ -36,6 +36,10 @@ To see video:
 http://localhost:5000/videos/avengersbattle.mp4
 
 To hear song:
+http://localhost:5000/songs/oceans14.mp3
+
+or
+
 http://localhost:5000/songs/mixvol2.mp3
 
 or
