@@ -43,6 +43,9 @@ To send emails to customers with https://sendgrid.com/
 1. You will need to create an api_key here https://app.sendgrid.com/settings/api_keys
 2. You will need to verify Single Sender Verification https://app.sendgrid.com/settings/sender_auth
 
+Merge Videos like a cable station
+https://www.adobe.com/express/feature/video/merge?ef_id=CjwKCAiA7dKMBhBCEiwAO_crFKWqZzFylo8KcdzNbYcqKS81AyZ7uRlbWDbtwnoBtgpmXOTJD1LH7BoC4_4QAvD_BwE:G:s&s_kwcid=AL!3085!3!453145736114!!!g!!!1523460659!53763243570&gclid=CjwKCAiA7dKMBhBCEiwAO_crFKWqZzFylo8KcdzNbYcqKS81AyZ7uRlbWDbtwnoBtgpmXOTJD1LH7BoC4_4QAvD_BwE
+
 https://support.apple.com/guide/quicktime-player/record-your-screen-qtp97b08e666/mac
 
 https://cloudconvert.com/mov-to-mp4
