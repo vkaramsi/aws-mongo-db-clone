@@ -1,4 +1,4 @@
-This is MIT's (Massachusetts Institute of Technology) effort to decentralize cloud services and allow everyone that has a computer to have their own cloud service at home.
+This is the U.S. Marines and MIT's (Massachusetts Institute of Technology) effort to decentralize cloud services and allow everyone that has a computer to have their own cloud service at home.
 
 Website ideas that you can make with this software:
 Youtube, Instagram, Facebook, Twitter, Google, AWS Buckets and Hosting Services, Microsoft Azure, Heroku, Netlify, Pinterest, Amazon, Netflix, Hulu, Disney +, Blockbuster, RedBox Online, Spotify, Apple Music, Apple TV, Direct TV, Sling TV, Toys R US, HBO Max, Yahoo Email, Hotmail, and Gmail.
