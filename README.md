@@ -1,4 +1,4 @@
-This is the U.S. Marines (MARSOC) effort to decentralize cloud services and allow everyone that has a computer(Mac or PC) to have their own cloud service at home.
+This repo allows you to setup a cloud service using your laptop or desktop(Mac or PC) you can replicate AWS S3 to host images and Mongo DB to store data.
 
 Website ideas that you can make with this software:
 Youtube, Instagram, Facebook, Twitter, Google, AWS Buckets and Hosting Services, Microsoft Azure, Heroku, Netlify, Pinterest, Amazon, Netflix, Hulu, Disney +, Blockbuster, RedBox Online, Spotify, Apple Music, Apple TV, Direct TV, Sling TV, Toys R US, HBO Max, Yahoo Email, Hotmail, and Gmail.

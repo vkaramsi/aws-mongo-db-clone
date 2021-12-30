@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js"
   },
-  "author": "Hector Moreno, Alan Turing, Tim Berners Lee, Steve Wozniak, Dan Abramov, Maximilian Schwarzmüller",
+  "author": "Hector Moreno",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.19.0",
