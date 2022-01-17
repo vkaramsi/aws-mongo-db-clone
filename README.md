@@ -1,4 +1,4 @@
-This repo allows you to setup a cloud service using your laptop or desktop(Mac or PC) you can replicate AWS S3 to host images and Mongo DB to store data.
+This repo allows you to setup a cloud service using your laptop or desktop(Mac or PC) you can replicate AWS S3 to host images and Mongo DB to store data and images.
 
 Website ideas that you can make with this software:
 Youtube, Instagram, Facebook, Twitter, Google, AWS Buckets and Hosting Services, Microsoft Azure, Heroku, Netlify, Pinterest, Amazon, Netflix, Hulu, Disney +, Blockbuster, RedBox Online, Spotify, Apple Music, Apple TV, Direct TV, Sling TV, Toys R US, HBO Max, Yahoo Email, Hotmail, and Gmail.
